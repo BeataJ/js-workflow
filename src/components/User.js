@@ -4,7 +4,7 @@ const User = async () => {
   const res = await axios.get('https://randomuser.me/api');
   const user = res.data.results[0];
 
-  console.log(user);
+  // console.log(user);
 
   const template = `
     <div class='card'>
